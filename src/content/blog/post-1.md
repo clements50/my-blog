@@ -2,7 +2,7 @@
 title: 'Hacking PermX'
 description: 'In this blog I hack my way through PermX'
 heroImage: '/permx/thumbnail.png'
-published: false
+published: true
 pubDate: '2021-07-08'
 tags: ['ctf', 'hacking']
 ---
