@@ -17,4 +17,4 @@ I will look to see if any of the information I have gathered could be used to ge
 
 Now that we have the ip address the first I do is run a port scan to see what we can find. After running the port scan we notice that the target is running a webserver on port 80. So we know that when we enter the ip address in our browser we get a website.
 
-![nmap initial scan](/nmap_initial2.png)
+![nmap initial scan](/permx/nmap_initial2.png)
