@@ -9,9 +9,7 @@ tags: ['ctf', 'hacking']
 
 I will be hacking the ctf PermX. I will be writing this blog out as I hack this machine to properly document 
 everything. The first thing I will start with is gathering as much information as I can (Reconassince). Once I have done that
-I will look to see if any of the information I have gathered could be used to get foothold of the target. Below we start with the targets ip address.
-
-![target ip](/permx/target1.png)
+I will look to see if any of the information I have gathered could be used to get foothold of the target. Once I get foothold my next goal is privilege escalation.
 
 ## Information Gathering
 
@@ -23,6 +21,9 @@ Upon putting the ip address in the website field I got to a website called Elear
 Next I moved on to enumerating subdomains and I found the subdomain lms.
 
 ![subdomain enumeration results](/permx/ffuf_sub.png)
+
+## Foothold 
+
 
 
 
