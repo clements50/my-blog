@@ -41,7 +41,7 @@ needed to run the exploit. And we finally have access to the target machine. I g
 
 ## Privilege Escelation
 
-Heading to the home directory I find the user mtz which I have no permissions to access. Taking note of the user I worked my way to the web servers root directory. After looking around the file system for a minute I found some credentials in the **(/var/www/chamilo/app/config/var/www/chamilo/app/config/configuration.php)** It had a username and password.
+Heading to the home directory I find the user mtz which I have no permissions to access. Taking note of the user I worked my way to the web servers root directory. After looking around the file system for a minute I found some credentials in the **(/var/www/chamilo/app/config/var/www/- chamilo/app/config/configuration.php)** It had a username and password.
 
 ![Configuration File](/permx/creds.png)
 
