@@ -28,7 +28,7 @@ When I visit the lms subdomain I find a chamillo login page. I first tried to gu
 but was not able to login. I started looking at the source code to see if I could maybe find a software version or a links to another page.
 The source code told me I was running chamillo version 1. 
 
-![Chamillo](/permx/chamillo_and_soursecode.png)
+![Chamillo](/permx/chamillo_and_sourcecode.png)
 
 A quick google search shows us that there is an exploit for unrestricted file uploads **(CVE-2023-4220)**. The exploit requires a php payload file for our reverse shell. It also provides additional information that's needed like the directory to visit the payload file once its uploaded.
 
