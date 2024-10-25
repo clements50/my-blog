@@ -41,7 +41,16 @@ needed to run the exploit. And we finally have access to the target machine. I g
 
 ## Privilege Escelation
 
-Heading to the home directory I find the user mtz which I have no permissions to access. Taking note of the user I worked my way to the web servers root directory. 
+Heading to the home directory I find the user mtz which I have no permissions to access. Taking note of the user I worked my way to the web servers root directory. After looking around the file system for a minute I found some credentials in the **(/var/www/chamilo/app/config/var/www/chamilo/app/config/configuration.php)** It had a username and password.
 
+![Configuration File](/permx/creds.png)
+
+I then tried to ssh as the mtz user we found earlier using the password I had found. Success! Im now logged in as the user mtz. My next objective is to see what I can find under this users home directory. From the user's home directory I get my first Flag.
+
+![mtz user flag](/permx/flag1.png)
+
+## Gaining Root Access
+
+Now that we have gotten our first flag we need to escalate our privileges to root leve so we can get the next flag. I start by checking if there's any file that allows sudo access.  
 
 
