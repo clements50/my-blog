@@ -15,8 +15,8 @@ export default defineConfig({
           // Alternatively, provide multiple themes
           // See note below for using dual light/dark themes
           themes: {
-            light: 'poimandres',
-            dark: 'catppuccin-latte',
+            light: 'github-dark',
+            dark: 'github-dark',
           },
         },
       },
