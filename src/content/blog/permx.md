@@ -52,5 +52,3 @@ I then tried to ssh as the mtz user we found earlier using the password I had fo
 ## Gaining Root Access
 
 Now that we have gotten our first flag we need to escalate our privileges to root leve so we can get the next flag. I start by checking if there's any file that allows sudo access.  
-
-
